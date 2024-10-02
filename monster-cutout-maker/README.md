@@ -10,6 +10,7 @@ monster-cutout-maker/
 │   └── monster_cutout_maker.py
 ├── data/
 │   └── full_monster_list.json
+|   └── images/
 ├── output/
 │   └── .gitkeep
 ├── requirements.txt
@@ -22,11 +23,12 @@ monster-cutout-maker/
 
 1. `src/monster_cutout_maker.py`: The main Python script for generating monster cutouts.
 2. `data/full_monster_list.json`: JSON file containing the full list of monsters.
-3. `output/`: Directory where generated PDFs will be saved.
-4. `requirements.txt`: List of Python dependencies.
-5. `README.md`: Project documentation and usage instructions.
-6. `.gitignore`: Specifies intentionally untracked files to ignore.
-7. `LICENSE`: The license for your project (e.g., MIT License).
+3. `data/images/`:  Directory where temporary images will be saved then cleared.
+4. `output/`: Directory where generated PDFs will be saved.
+5. `requirements.txt`: List of Python dependencies.
+6. `README.md`: Project documentation and usage instructions.
+7. `.gitignore`: Specifies intentionally untracked files to ignore.
+8. `LICENSE`: The license for your project (e.g., MIT License).
 
 ## Setup and Usage
 
